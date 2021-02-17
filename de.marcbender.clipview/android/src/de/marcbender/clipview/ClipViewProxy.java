@@ -8,24 +8,21 @@
  */
 package de.marcbender.clipview;
 
+import android.app.Activity;
+import android.view.View;
+import android.view.ViewGroup;
+
 import org.appcelerator.kroll.KrollDict;
-import org.appcelerator.kroll.KrollProxy;
 import org.appcelerator.kroll.annotations.Kroll;
-import org.appcelerator.titanium.TiC;
-import org.appcelerator.kroll.common.Log;
 import org.appcelerator.kroll.common.TiConfig;
-import org.appcelerator.titanium.util.TiConvert;
+import org.appcelerator.titanium.TiC;
 import org.appcelerator.titanium.proxy.TiViewProxy;
+import org.appcelerator.titanium.util.TiConvert;
 import org.appcelerator.titanium.view.TiCompositeLayout;
 import org.appcelerator.titanium.view.TiCompositeLayout.LayoutArrangement;
 import org.appcelerator.titanium.view.TiUIView;
-import android.view.View;
-import android.view.ViewGroup;
-import android.view.ViewParent;
-import android.app.Activity;
 
 
-// This proxy can be created by calling Test.createExample({message: "hello world"})
 @Kroll.proxy(creatableInModule=ClipViewModule.class)
 public class ClipViewProxy extends TiViewProxy
 {
@@ -71,7 +68,6 @@ public class ClipViewProxy extends TiViewProxy
 		view.getLayoutParams().autoFillsHeight = true;
 		view.getLayoutParams().autoFillsWidth = true;
 
-
 			if (view != null) {
 					View cv = view.getOuterView();
 					if (cv != null) {
@@ -79,13 +75,9 @@ public class ClipViewProxy extends TiViewProxy
 
 						if (nv instanceof ViewGroup) {
 							if (cv.getParent() == null) {
-	
 								((ViewGroup) nv).setClipChildren(false);
 								((ViewGroup) nv).setClipToPadding(false);
-
-
 							}
-
 						}
 					}
 			}
@@ -98,29 +90,5 @@ public class ClipViewProxy extends TiViewProxy
 	public void handleCreationDict(KrollDict options)
 	{
 		super.handleCreationDict(options);
-
-		if (options.containsKey("message")) {
-			Log.d(LCAT, "example created with message: " + options.get("message"));
-		}
-	}
-
-	// Methods
-	@Kroll.method
-	public void printMessage(String message)
-	{
-		Log.d(LCAT, "printing message: " + message);
-	}
-
-
-	@Kroll.getProperty @Kroll.method
-	public String getMessage()
-	{
-        return "Hello World from my module";
-	}
-
-	@Kroll.setProperty @Kroll.method
-	public void setMessage(String message)
-	{
-	    Log.d(LCAT, "Tried setting module message to: " + message);
 	}
 }
