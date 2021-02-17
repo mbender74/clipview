@@ -1,0 +1,86 @@
+[
+  {
+    "level": "INFO",
+    "message": "Start JSON generation. Platform version: 19 min SDK version: arm64-v8a",
+    "file": "/Users/marcbender/de.marcbender.clipview/android/build/module/src/main/jni/Android.mk",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "rebuilding JSON /Users/marcbender/de.marcbender.clipview/android/build/module/.cxx/ndkBuild/release/arm64-v8a/android_gradle_build.json due to:",
+    "file": "/Users/marcbender/de.marcbender.clipview/android/build/module/src/main/jni/Android.mk",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "- command changed from previous, will remove stale json folder",
+    "file": "/Users/marcbender/de.marcbender.clipview/android/build/module/src/main/jni/Android.mk",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "- a dependent build file changed",
+    "file": "/Users/marcbender/de.marcbender.clipview/android/build/module/src/main/jni/Android.mk",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "  - /Users/marcbender/de.marcbender.clipview/android/build/module/src/main/jni/Android.mk",
+    "file": "/Users/marcbender/de.marcbender.clipview/android/build/module/src/main/jni/Android.mk",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "removing stale contents from \u0027/Users/marcbender/de.marcbender.clipview/android/build/module/.cxx/ndkBuild/release/arm64-v8a\u0027",
+    "file": "/Users/marcbender/de.marcbender.clipview/android/build/module/src/main/jni/Android.mk",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "created folder \u0027/Users/marcbender/de.marcbender.clipview/android/build/module/.cxx/ndkBuild/release/arm64-v8a\u0027",
+    "file": "/Users/marcbender/de.marcbender.clipview/android/build/module/src/main/jni/Android.mk",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "executing ndkBuild Executable : /Users/marcbender/Library/android-sdk-macosx/ndk/21.3.6528147/ndk-build\narguments : \nNDK_PROJECT_PATH\u003dnull\nAPP_BUILD_SCRIPT\u003d/Users/marcbender/de.marcbender.clipview/android/build/module/src/main/jni/Android.mk\nAPP_ABI\u003darm64-v8a\nNDK_ALL_ABIS\u003darm64-v8a\nNDK_DEBUG\u003d0\nAPP_PLATFORM\u003dandroid-19\nNDK_OUT\u003d/Users/marcbender/de.marcbender.clipview/android/build/module/build/intermediates/ndkBuild/release/obj\nNDK_LIBS_OUT\u003d/Users/marcbender/de.marcbender.clipview/android/build/module/build/intermediates/ndkBuild/release/lib\nAPP_CPPFLAGS+\u003d-std\u003dc++11\nAPP_STL:\u003dc++_shared\n-j8\n--output-sync\u003dnone\nAPP_SHORT_COMMANDS\u003dfalse\nLOCAL_SHORT_COMMANDS\u003dfalse\n-B\n-n\njvmArgs : \n\n",
+    "file": "/Users/marcbender/de.marcbender.clipview/android/build/module/src/main/jni/Android.mk",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "Executable : /Users/marcbender/Library/android-sdk-macosx/ndk/21.3.6528147/ndk-build\narguments : \nNDK_PROJECT_PATH\u003dnull\nAPP_BUILD_SCRIPT\u003d/Users/marcbender/de.marcbender.clipview/android/build/module/src/main/jni/Android.mk\nAPP_ABI\u003darm64-v8a\nNDK_ALL_ABIS\u003darm64-v8a\nNDK_DEBUG\u003d0\nAPP_PLATFORM\u003dandroid-19\nNDK_OUT\u003d/Users/marcbender/de.marcbender.clipview/android/build/module/build/intermediates/ndkBuild/release/obj\nNDK_LIBS_OUT\u003d/Users/marcbender/de.marcbender.clipview/android/build/module/build/intermediates/ndkBuild/release/lib\nAPP_CPPFLAGS+\u003d-std\u003dc++11\nAPP_STL:\u003dc++_shared\n-j8\n--output-sync\u003dnone\nAPP_SHORT_COMMANDS\u003dfalse\nLOCAL_SHORT_COMMANDS\u003dfalse\n-B\n-n\njvmArgs : \n\n",
+    "file": "/Users/marcbender/de.marcbender.clipview/android/build/module/src/main/jni/Android.mk",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "done executing ndkBuild",
+    "file": "/Users/marcbender/de.marcbender.clipview/android/build/module/src/main/jni/Android.mk",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "write build output /Users/marcbender/de.marcbender.clipview/android/build/module/.cxx/ndkBuild/release/arm64-v8a/build_output.txt",
+    "file": "/Users/marcbender/de.marcbender.clipview/android/build/module/src/main/jni/Android.mk",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "parse and convert ndk-build output to build configuration JSON",
+    "file": "/Users/marcbender/de.marcbender.clipview/android/build/module/src/main/jni/Android.mk",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "write command file /Users/marcbender/de.marcbender.clipview/android/build/module/.cxx/ndkBuild/release/arm64-v8a/build_command.txt",
+    "file": "/Users/marcbender/de.marcbender.clipview/android/build/module/src/main/jni/Android.mk",
+    "tag": "release|arm64-v8a"
+  },
+  {
+    "level": "INFO",
+    "message": "JSON generation completed without problems",
+    "file": "/Users/marcbender/de.marcbender.clipview/android/build/module/src/main/jni/Android.mk",
+    "tag": "release|arm64-v8a"
+  }
+]

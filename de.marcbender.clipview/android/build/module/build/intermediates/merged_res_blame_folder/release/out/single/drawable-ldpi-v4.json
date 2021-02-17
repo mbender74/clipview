@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "/Users/marcbender/de.marcbender.clipview/android/build/module/build/intermediates/res/merged/release/drawable-ldpi-v4/titanium_icon_more.png",
+        "source": "/Users/marcbender/.gradle/caches/transforms-2/files-2.1/714aa49a23e24457914f9a7ad8fc2218/jetified-titanium-9.3.1/res/drawable-ldpi-v4/titanium_icon_more.png"
+    },
+    {
+        "merged": "/Users/marcbender/de.marcbender.clipview/android/build/module/build/intermediates/res/merged/release/drawable-ldpi-v4/titanium_icon_delete.png",
+        "source": "/Users/marcbender/.gradle/caches/transforms-2/files-2.1/714aa49a23e24457914f9a7ad8fc2218/jetified-titanium-9.3.1/res/drawable-ldpi-v4/titanium_icon_delete.png"
+    },
+    {
+        "merged": "/Users/marcbender/de.marcbender.clipview/android/build/module/build/intermediates/res/merged/release/drawable-ldpi-v4/titanium_icon_checkmark.png",
+        "source": "/Users/marcbender/.gradle/caches/transforms-2/files-2.1/714aa49a23e24457914f9a7ad8fc2218/jetified-titanium-9.3.1/res/drawable-ldpi-v4/titanium_icon_checkmark.png"
+    },
+    {
+        "merged": "/Users/marcbender/de.marcbender.clipview/android/build/module/build/intermediates/res/merged/release/drawable-ldpi-v4/titanium_icon_disclosure.png",
+        "source": "/Users/marcbender/.gradle/caches/transforms-2/files-2.1/714aa49a23e24457914f9a7ad8fc2218/jetified-titanium-9.3.1/res/drawable-ldpi-v4/titanium_icon_disclosure.png"
+    },
+    {
+        "merged": "/Users/marcbender/de.marcbender.clipview/android/build/module/build/intermediates/res/merged/release/drawable-ldpi-v4/titanium_icon_drag.png",
+        "source": "/Users/marcbender/.gradle/caches/transforms-2/files-2.1/714aa49a23e24457914f9a7ad8fc2218/jetified-titanium-9.3.1/res/drawable-ldpi-v4/titanium_icon_drag.png"
+    }
+]

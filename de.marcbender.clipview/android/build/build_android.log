@@ -1,0 +1,164 @@
+
+2021-2-17 2:46:40
+
+Operating System
+  Name                        = macOS
+  Version                     = 11.3
+  Architecture                = 64bit
+  # CPUs                      = 8
+  Memory                      = 17179869184
+
+Node.js
+  Node.js Version             = 12.20.1
+  npm Version                 = 6.14.10
+
+Titanium CLI
+  CLI Version                 = 5.2.5
+
+Titanium SDK
+  SDK Version                 = 9.3.1.GA
+  SDK Path                    = /Users/marcbender/Library/Application Support/Titanium/mobilesdk/osx/9.3.1.GA
+  Target Platform             = android
+
+Command
+  /usr/local/bin/node /Users/marcbender/.appcelerator/install/8.1.1/package/node_modules/titanium/lib/titanium.js build -p android --build-only -s 9.3.1.GA --config-file /var/folders/5x/9lmqclw14sj1drz7pp5qpk_40000gn/T/build-1613526395257.json --log-level info --no-banner --project-dir /Users/marcbender/de.marcbender.clipview/android
+
+[INFO]   Assets Dir: /Users/marcbender/de.marcbender.clipview/assets
+[INFO]   Documentation Dir: /Users/marcbender/de.marcbender.clipview/documentation
+[INFO]   Example Dir: /Users/marcbender/de.marcbender.clipview/example
+[INFO]   Platform Dir: /Users/marcbender/de.marcbender.clipview/android/platform
+[INFO]   Resources Dir: /Users/marcbender/de.marcbender.clipview/android/Resources
+[INFO]   Generating root project files
+[INFO]   Generating gradle project: module
+[INFO]   Building module
+[INFO]   [GRADLE] 
+[INFO]   [GRADLE] > Configure project :module
+[INFO]   [GRADLE] WARNING: NDK was located by using ndk.dir property. This method is deprecated and will be removed in a future release. If you delete ndk.dir from local.properties and set android.ndkVersion to [21.3.6528147] then NDK at /Users/marcbender/Library/android-sdk-macosx/ndk/21.3.6528147 will be used. https://developer.android.com/r/studio-ui/ndk-dir
+[INFO]   [GRADLE] NDK was located by using ndk.dir property. This method is deprecated and will be removed in a future release. If you delete ndk.dir from local.properties and set android.ndkVersion to [21.3.6528147] then NDK at /Users/marcbender/Library/android-sdk-macosx/ndk/21.3.6528147 will be used. https://developer.android.com/r/studio-ui/ndk-dir
+[INFO]   [GRADLE] Adding a Configuration as a dependency is a confusing behavior which isn't recommended. This behaviour has been deprecated and is scheduled to be removed in Gradle 8.0. If you're interested in inheriting the dependencies from the Configuration you are adding, you should use Configuration#extendsFrom instead. See https://docs.gradle.org/6.7/dsl/org.gradle.api.artifacts.Configuration.html#org.gradle.api.artifacts.Configuration:extendsFrom(org.gradle.api.artifacts.Configuration[]) for more details.
+[INFO]   [GRADLE] 
+[INFO]   [GRADLE] > Task :module:preBuild
+[INFO]   [GRADLE] > Task :module:preReleaseBuild
+[INFO]   [GRADLE] > Task :module:compileReleaseAidl NO-SOURCE
+[INFO]   [GRADLE] > Task :module:compileReleaseRenderscript NO-SOURCE
+[INFO]   [GRADLE] > Task :module:generateReleaseBuildConfig UP-TO-DATE
+[INFO]   [GRADLE] > Task :module:generateReleaseResValues UP-TO-DATE
+[INFO]   [GRADLE] > Task :module:generateReleaseResources UP-TO-DATE
+[INFO]   [GRADLE] > Task :module:packageReleaseResources
+[INFO]   [GRADLE] > Task :module:parseReleaseLocalResources UP-TO-DATE
+[INFO]   [GRADLE] > Task :module:javaPreCompileRelease
+[INFO]   [GRADLE] > Task :module:processReleaseManifest
+[INFO]   [GRADLE] > Task :module:generateJsonModelRelease
+[INFO]   [GRADLE] > Task :module:mergeReleaseJniLibFolders UP-TO-DATE
+[INFO]   [GRADLE] > Task :module:mergeReleaseShaders UP-TO-DATE
+[INFO]   [GRADLE] > Task :module:compileReleaseShaders NO-SOURCE
+[INFO]   [GRADLE] > Task :module:generateReleaseAssets UP-TO-DATE
+[INFO]   [GRADLE] > Task :module:packageReleaseAssets UP-TO-DATE
+[INFO]   [GRADLE] > Task :module:packageReleaseRenderscript NO-SOURCE
+[INFO]   [GRADLE] > Task :module:prepareLintJarForPublish UP-TO-DATE
+[INFO]   [GRADLE] > Task :module:processReleaseJavaRes NO-SOURCE
+[INFO]   [GRADLE] > Task :module:writeReleaseAarMetadata UP-TO-DATE
+[INFO]   [GRADLE] > Task :module:generateReleaseRFile
+[INFO]   [GRADLE] > Task :module:mergeReleaseResources
+[INFO]   [GRADLE] > Task :module:kaptGenerateStubsReleaseKotlin
+[INFO]   [GRADLE] > Task :module:verifyReleaseResources
+[INFO]   [GRADLE] 
+[INFO]   [GRADLE] > Task :module:kaptReleaseKotlin
+[INFO]   [GRADLE] [KrollBindingGen] Running Kroll binding generator.
+[INFO]   [GRADLE] [KrollBindingGen] Found binding for proxy ClipView
+[INFO]   [GRADLE] [KrollBindingGen] Found binding for module ClipView
+[INFO]   [GRADLE] Generating /Users/marcbender/de.marcbender.clipview/android/build/module/build/ti-generated/jni/de.marcbender.clipview.ClipViewModule.cpp
+[INFO]   [GRADLE] Generating /Users/marcbender/de.marcbender.clipview/android/build/module/build/ti-generated/jni/de.marcbender.clipview.ClipViewProxy.cpp
+[INFO]   [GRADLE] 
+[INFO]   [GRADLE] > Task :module:compileReleaseKotlin
+[INFO]   [GRADLE] 
+[INFO]   [GRADLE] > Task :module:compileReleaseJavaWithJavac
+[INFO]   [GRADLE] Running Titanium "generate-cpp-files.js" script.
+[INFO]   [GRADLE] 
+[INFO]   [GRADLE] > Task :module:externalNativeBuildRelease
+[INFO]   [GRADLE] Build de.marcbender.clipview_armeabi-v7a
+[INFO]   [GRADLE] Android NDK: WARNING:/Users/marcbender/de.marcbender.clipview/android/build/module/src/main/jni/Android.mk:de.marcbender.clipview: non-system libraries in linker flags: -lkroll-v8    
+[INFO]   [GRADLE] Android NDK:     This is likely to result in incorrect builds. Try using LOCAL_STATIC_LIBRARIES    
+[INFO]   [GRADLE] Android NDK:     or LOCAL_SHARED_LIBRARIES instead to list the library dependencies of the    
+[INFO]   [GRADLE] Android NDK:     current module    
+[INFO]   [GRADLE] [armeabi-v7a] Compile++ thumb: de.marcbender.clipview <= de.marcbender.clipview.ClipViewProxy.cpp
+[INFO]   [GRADLE] [armeabi-v7a] Compile++ thumb: de.marcbender.clipview <= TiModuleBootstrap.cpp
+[INFO]   [GRADLE] [armeabi-v7a] Compile++ thumb: de.marcbender.clipview <= com.example.test.TestModule.cpp
+[INFO]   [GRADLE] [armeabi-v7a] Compile++ thumb: de.marcbender.clipview <= com.example.test.ClipViewProxy.cpp
+[INFO]   [GRADLE] [armeabi-v7a] Compile++ thumb: de.marcbender.clipview <= com.example.test.ExampleProxy.cpp
+[INFO]   [GRADLE] [armeabi-v7a] Compile++ thumb: de.marcbender.clipview <= de.marcbender.clipview.ClipViewModule.cpp
+[INFO]   [GRADLE] [armeabi-v7a] Prebuilt       : libc++_shared.so <= <NDK>/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a/
+[INFO]   [GRADLE] [armeabi-v7a] SharedLibrary  : libde.marcbender.clipview.so
+[INFO]   [GRADLE] Build de.marcbender.clipview_arm64-v8a
+[INFO]   [GRADLE] Android NDK: WARNING:/Users/marcbender/de.marcbender.clipview/android/build/module/src/main/jni/Android.mk:de.marcbender.clipview: non-system libraries in linker flags: -lkroll-v8    
+[INFO]   [GRADLE] Android NDK:     This is likely to result in incorrect builds. Try using LOCAL_STATIC_LIBRARIES    
+[INFO]   [GRADLE] Android NDK:     or LOCAL_SHARED_LIBRARIES instead to list the library dependencies of the    
+[INFO]   [GRADLE] Android NDK:     current module    
+[INFO]   [GRADLE] [arm64-v8a] Prebuilt       : libc++_shared.so <= <NDK>/sources/cxx-stl/llvm-libc++/libs/arm64-v8a/
+[INFO]   [GRADLE] [arm64-v8a] Compile++      : de.marcbender.clipview <= de.marcbender.clipview.ClipViewProxy.cpp
+[INFO]   [GRADLE] [arm64-v8a] Compile++      : de.marcbender.clipview <= TiModuleBootstrap.cpp
+[INFO]   [GRADLE] [arm64-v8a] Compile++      : de.marcbender.clipview <= com.example.test.TestModule.cpp
+[INFO]   [GRADLE] [arm64-v8a] Compile++      : de.marcbender.clipview <= com.example.test.ClipViewProxy.cpp
+[INFO]   [GRADLE] [arm64-v8a] Compile++      : de.marcbender.clipview <= de.marcbender.clipview.ClipViewModule.cpp
+[INFO]   [GRADLE] [arm64-v8a] Compile++      : de.marcbender.clipview <= com.example.test.ExampleProxy.cpp
+[INFO]   [GRADLE] [arm64-v8a] SharedLibrary  : libde.marcbender.clipview.so
+[INFO]   [GRADLE] Build de.marcbender.clipview_x86
+[INFO]   [GRADLE] Android NDK: WARNING:/Users/marcbender/de.marcbender.clipview/android/build/module/src/main/jni/Android.mk:de.marcbender.clipview: non-system libraries in linker flags: -lkroll-v8    
+[INFO]   [GRADLE] Android NDK:     This is likely to result in incorrect builds. Try using LOCAL_STATIC_LIBRARIES    
+[INFO]   [GRADLE] Android NDK:     or LOCAL_SHARED_LIBRARIES instead to list the library dependencies of the    
+[INFO]   [GRADLE] Android NDK:     current module    
+[INFO]   [GRADLE] [x86] Prebuilt       : libc++_shared.so <= <NDK>/sources/cxx-stl/llvm-libc++/libs/x86/
+[INFO]   [GRADLE] [x86] Compile++      : de.marcbender.clipview <= de.marcbender.clipview.ClipViewProxy.cpp
+[INFO]   [GRADLE] [x86] Compile++      : de.marcbender.clipview <= TiModuleBootstrap.cpp
+[INFO]   [GRADLE] [x86] Compile++      : de.marcbender.clipview <= com.example.test.TestModule.cpp
+[INFO]   [GRADLE] [x86] Compile++      : de.marcbender.clipview <= com.example.test.ClipViewProxy.cpp
+[INFO]   [GRADLE] [x86] Compile++      : de.marcbender.clipview <= de.marcbender.clipview.ClipViewModule.cpp
+[INFO]   [GRADLE] [x86] Compile++      : de.marcbender.clipview <= com.example.test.ExampleProxy.cpp
+[INFO]   [GRADLE] [x86] SharedLibrary  : libde.marcbender.clipview.so
+[INFO]   [GRADLE] Build de.marcbender.clipview_x86_64
+[INFO]   [GRADLE] Android NDK: WARNING:/Users/marcbender/de.marcbender.clipview/android/build/module/src/main/jni/Android.mk:de.marcbender.clipview: non-system libraries in linker flags: -lkroll-v8    
+[INFO]   [GRADLE] Android NDK:     This is likely to result in incorrect builds. Try using LOCAL_STATIC_LIBRARIES    
+[INFO]   [GRADLE] Android NDK:     or LOCAL_SHARED_LIBRARIES instead to list the library dependencies of the    
+[INFO]   [GRADLE] Android NDK:     current module    
+[INFO]   [GRADLE] [x86_64] Prebuilt       : libc++_shared.so <= <NDK>/sources/cxx-stl/llvm-libc++/libs/x86_64/
+[INFO]   [GRADLE] [x86_64] Compile++      : de.marcbender.clipview <= de.marcbender.clipview.ClipViewProxy.cpp
+[INFO]   [GRADLE] [x86_64] Compile++      : de.marcbender.clipview <= TiModuleBootstrap.cpp
+[INFO]   [GRADLE] [x86_64] Compile++      : de.marcbender.clipview <= com.example.test.TestModule.cpp
+[INFO]   [GRADLE] [x86_64] Compile++      : de.marcbender.clipview <= com.example.test.ClipViewProxy.cpp
+[INFO]   [GRADLE] [x86_64] Compile++      : de.marcbender.clipview <= de.marcbender.clipview.ClipViewModule.cpp
+[INFO]   [GRADLE] [x86_64] Compile++      : de.marcbender.clipview <= com.example.test.ExampleProxy.cpp
+[INFO]   [GRADLE] [x86_64] SharedLibrary  : libde.marcbender.clipview.so
+[INFO]   [GRADLE] 
+[INFO]   [GRADLE] > Task :module:mergeReleaseNativeLibs
+[INFO]   [GRADLE] > Task :module:extractReleaseAnnotations
+[INFO]   [GRADLE] > Task :module:stripReleaseDebugSymbols
+[INFO]   [GRADLE] > Task :module:copyReleaseJniLibsProjectAndLocalJars
+[INFO]   [GRADLE] > Task :module:mergeReleaseGeneratedProguardFiles UP-TO-DATE
+[INFO]   [GRADLE] > Task :module:mergeReleaseConsumerProguardFiles UP-TO-DATE
+[INFO]   [GRADLE] > Task :module:compileReleaseSources
+[INFO]   [GRADLE] > Task :module:mergeReleaseJavaResource
+[INFO]   [GRADLE] > Task :module:syncReleaseLibJars
+[INFO]   [GRADLE] > Task :module:bundleReleaseAar
+[INFO]   [GRADLE] > Task :module:assembleRelease
+[INFO]   [GRADLE] 
+[INFO]   [GRADLE] BUILD SUCCESSFUL in 12s
+[INFO]   [GRADLE] 30 actionable tasks: 20 executed, 10 up-to-date
+[INFO]   [GRADLE] 
+[INFO]   [GRADLE] > Configure project :module
+[INFO]   [GRADLE] WARNING: NDK was located by using ndk.dir property. This method is deprecated and will be removed in a future release. If you delete ndk.dir from local.properties and set android.ndkVersion to [21.3.6528147] then NDK at /Users/marcbender/Library/android-sdk-macosx/ndk/21.3.6528147 will be used. https://developer.android.com/r/studio-ui/ndk-dir
+[INFO]   [GRADLE] NDK was located by using ndk.dir property. This method is deprecated and will be removed in a future release. If you delete ndk.dir from local.properties and set android.ndkVersion to [21.3.6528147] then NDK at /Users/marcbender/Library/android-sdk-macosx/ndk/21.3.6528147 will be used. https://developer.android.com/r/studio-ui/ndk-dir
+[INFO]   [GRADLE] 
+[INFO]   [GRADLE] > Task :module:generatePomFileForTitaniumPublicationPublication
+[INFO]   [GRADLE] > Task :module:publishTitaniumPublicationPublicationToMavenRepository
+[INFO]   [GRADLE] > Task :module:publish
+[INFO]   [GRADLE] 
+[INFO]   [GRADLE] Deprecated Gradle features were used in this build, making it incompatible with Gradle 7.0.
+[INFO]   [GRADLE] Use '--warning-mode all' to show the individual deprecation warnings.
+[INFO]   [GRADLE] See https://docs.gradle.org/6.7/userguide/command_line_interface.html#sec:command_line_warnings
+[INFO]   [GRADLE] 
+[INFO]   [GRADLE] BUILD SUCCESSFUL in 1s
+[INFO]   [GRADLE] 2 actionable tasks: 2 executed
+[INFO]   Packaging the module
+[INFO]   Creating module zip
+[INFO]   Writing module zip: /Users/marcbender/de.marcbender.clipview/android/dist/de.marcbender.clipview-android-1.0.0.zip
+[INFO]   Project built successfully in 16s 84ms
