@@ -6,7 +6,7 @@
  * Please see the LICENSE included with this distribution for details.
  *
  */
-package de.marcbender.clipview;
+package ti.clipview;
 
 import android.app.Activity;
 import android.view.View;
@@ -22,29 +22,33 @@ import org.appcelerator.titanium.view.TiCompositeLayout;
 import org.appcelerator.titanium.view.TiCompositeLayout.LayoutArrangement;
 import org.appcelerator.titanium.view.TiUIView;
 
-
-@Kroll.proxy(creatableInModule=ClipViewModule.class)
+@Kroll.proxy(creatableInModule = TiClipViewModule.class)
 public class ClipViewProxy extends TiViewProxy
 {
 	// Standard Debugging variables
-	private static final String LCAT = "ClipViewModule";
+	private static final String LCAT = "ClipViewProxy";
 	private static final boolean DBG = TiConfig.LOGD;
+
 
 	private class ClipView extends TiUIView
 	{
-		public ClipView(TiViewProxy proxy) {
+		public ClipView(TiViewProxy proxy)
+		{
 			super(proxy);
-			LayoutArrangement arrangement = LayoutArrangement.DEFAULT;
+            
+            LayoutArrangement arrangement = LayoutArrangement.DEFAULT;
 
-			if (proxy.hasProperty(TiC.PROPERTY_LAYOUT)) {
-				String layoutProperty = TiConvert.toString(proxy.getProperty(TiC.PROPERTY_LAYOUT));
-				if (layoutProperty.equals(TiC.LAYOUT_HORIZONTAL)) {
-					arrangement = LayoutArrangement.HORIZONTAL;
-				} else if (layoutProperty.equals(TiC.LAYOUT_VERTICAL)) {
-					arrangement = LayoutArrangement.VERTICAL;
-				}
-			}
-			setNativeView(new TiCompositeLayout(proxy.getActivity(), arrangement));
+            if (proxy.hasProperty(TiC.PROPERTY_LAYOUT)) {
+                String layoutProperty = TiConvert.toString(proxy.getProperty(TiC.PROPERTY_LAYOUT));
+                if (layoutProperty.equals(TiC.LAYOUT_HORIZONTAL)) {
+                    arrangement = LayoutArrangement.HORIZONTAL;
+                } else if (layoutProperty.equals(TiC.LAYOUT_VERTICAL)) {
+                    arrangement = LayoutArrangement.VERTICAL;
+                }
+            }
+            setNativeView(new TiCompositeLayout(proxy.getActivity(), arrangement));
+            
+            
 		}
 
 		@Override
@@ -53,7 +57,6 @@ public class ClipViewProxy extends TiViewProxy
 			super.processProperties(d);
 		}
 	}
-
 
 	// Constructor
 	public ClipViewProxy()
@@ -68,19 +71,19 @@ public class ClipViewProxy extends TiViewProxy
 		view.getLayoutParams().autoFillsHeight = true;
 		view.getLayoutParams().autoFillsWidth = true;
 
-			if (view != null) {
-					View cv = view.getOuterView();
-					if (cv != null) {
-						View nv = view.getNativeView();
+        if (view != null) {
+                            View cv = view.getOuterView();
+                            if (cv != null) {
+                                View nv = view.getNativeView();
 
-						if (nv instanceof ViewGroup) {
-							if (cv.getParent() == null) {
-								((ViewGroup) nv).setClipChildren(false);
-								((ViewGroup) nv).setClipToPadding(false);
-							}
-						}
-					}
-			}
+                                if (nv instanceof ViewGroup) {
+                                    if (cv.getParent() == null) {
+                                        ((ViewGroup) nv).setClipChildren(false);
+                                        ((ViewGroup) nv).setClipToPadding(false);
+                                    }
+                                }
+                            }
+                    }
 
 		return view;
 	}
@@ -90,5 +93,8 @@ public class ClipViewProxy extends TiViewProxy
 	public void handleCreationDict(KrollDict options)
 	{
 		super.handleCreationDict(options);
+
+
 	}
+
 }
