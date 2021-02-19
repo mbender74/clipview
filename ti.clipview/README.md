@@ -3,7 +3,7 @@
 
 
 
-<img src="screen.jpg"/><br/>
+<img src="screenshot.jpg"/><br/>
 
 Simple Android View module for Appcelerator Titanium that can draw outside of bounds
 
